@@ -3,7 +3,7 @@
 ## Installation
 
 * `cd /path_to_catkin_ws/src`
-* `https://github.com/semio-ai/animation_websocket_quori.git`
+* `git clone https://github.com/semio-ai/quori_joint_state_bind.git`
 * `cd /path_to_catkin_ws`
 * `catkin_make`
 
