@@ -27,11 +27,11 @@ void onJointState(const sensor_msgs::JointState::ConstPtr &msg)
     }
     else if(name == "Right Arm Roll")
     {
-      right.x = position;
+      right.x = -position;
     }
     else if(name == "Right Arm Pitch")
     {
-      right.y = position;
+      right.y = -position;
     }
     else if(name == "Waist Pitch")
     {
